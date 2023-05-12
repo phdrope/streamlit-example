@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.tittle('Modelo Portal de Chamado - Automação e Processos')
 
 tipoSolicitacao = st.selectbox(
     'Tipo de Solicição:',
