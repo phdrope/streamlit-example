@@ -28,7 +28,6 @@ if tipoSolicitacao == 'Integração de Pedidos':
     st.number_input('Número do Pedido, OS ou SV: *')
     st.selectbox('Sistema de Reserva: *', ('...','ARGO','RESERVE', 'LEMONTECH','PAYTRACK','WOOBA'))
     st.selectbox('Cliente: *', ('Exemplos','Vale','BRF', 'Minerva', 'Kroton - Cogna'))
-    st.text_area("Descrição:")
 
 if tipoSolicitacao == 'Integração Vários Pedidos':
     st.write(f'''Para a integração de vários pedidos, por gentileza, anexar uma planilha contendo as informações:
